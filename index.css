@@ -1,1 +1,14 @@
-
+html{
+scroll-behavior: smooth;
+}
+header{
+    text-align: center;
+    box-shadow: black 15px 15px 30px;
+    
+}
+h1{
+    font-size: 50px;
+    color: white;
+    transform: translate(-730px,-90px);
+    font-style:italic ;
+}
