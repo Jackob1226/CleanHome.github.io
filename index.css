@@ -1,6 +1,4 @@
-html{
-scroll-behavior: smooth;
-}
+
 header{
     text-align: center;
     box-shadow: black 15px 15px 30px;
@@ -25,13 +23,11 @@ h1{
 }
 nav{
     font-style:italic ;
-    transform: translate(-330px,-175px);
+   
 }
 body{
-    size: 100%;
     background-color:black;
     background-image: url("https://odessa.dozor.ua/content/documents/11830/1182931/images/HvqFV4gdJUM.jpg");
-    background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
 }
@@ -41,7 +37,6 @@ body{
     margin: 5px;
     font-size: 45px;   
     border-radius: 30px;
-    scroll-behavior: smooth;
 }
 .link:hover{
     background-color:gray;
