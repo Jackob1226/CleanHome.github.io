@@ -3,7 +3,7 @@ html{
     scroll:smooth;
 }
 header{
-    text-align: center;
+   
     box-shadow: black 15px 15px 30px;
     background-color: black;
     height: 64px;
@@ -33,7 +33,7 @@ body{
     position:absolute;
     background-color:black;
     background-image: url("https://odessa.dozor.ua/content/documents/11830/1182931/images/HvqFV4gdJUM.jpg");
-    background-size:200%;
+    background-size:100%;
     background-attachment: fixed;
 }
 .link{
@@ -128,6 +128,5 @@ footer{
 }
 
 main{
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+   position:absolute;
 }
