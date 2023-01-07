@@ -1,10 +1,14 @@
-
 html{
 scroll-behavior: smooth;
 }
 header{
     text-align: center;
     box-shadow: black 15px 15px 30px;
+    background-color: black;
+    height: 64px;
+    width:200px;
+    margin:0 auto;
+    border-radius: 30px;
     
 }
 h1{
@@ -24,19 +28,11 @@ nav{
     transform: translate(-330px,-175px);
 }
 body{
-    size:100%;
-    margin: 0;
     background-color:black;
     background-image: url("https://odessa.dozor.ua/content/documents/11830/1182931/images/HvqFV4gdJUM.jpg");
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
     background-attachment: fixed;
-}
-header{
-    background-color: black;
-    height: 64px;
-    margin: 1px;
-    border-radius: 30px;
 }
 .link{
     text-decoration: none;
