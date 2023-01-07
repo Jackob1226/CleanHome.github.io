@@ -19,8 +19,8 @@ h1{
     border-radius: 30px;
 }
 nav{
-    position:relative;
     font-style:italic ;
-    botton: 330px;
-    right: 175px;
+    margin-left:30px;
+    transform: translate(-330px,-175px);
+    
 }
