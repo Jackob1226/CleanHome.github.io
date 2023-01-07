@@ -18,3 +18,7 @@ h1{
     transform: translateX(-890px);
     border-radius: 30px;
 }
+nav{
+    font-style:italic ;
+    transform: translate(-330px,-175px);
+}
