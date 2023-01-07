@@ -10,7 +10,7 @@ header{
     width:100%;
     margin:0 auto;
     border-radius: 30px;
-    position:absolute;
+    
     
 }
 h1{
@@ -30,7 +30,7 @@ nav{
     transform: translate(-330px,-175px);
 }
 body{
-    position:absolute;
+   
     background-color:black;
     background-image: url("https://odessa.dozor.ua/content/documents/11830/1182931/images/HvqFV4gdJUM.jpg");
     background-size:100%;
@@ -80,7 +80,7 @@ ul{
     height: 500px;
     transform: translate(120%,-150%);
     border-radius: 30px;
-    position: absolute;
+   
 }
 footer{
     color:white;
@@ -98,7 +98,7 @@ footer{
 .img3{
     height: 650px;
     transform:translate(1350px,700px);
-    position:absolute;
+   
     border-radius: 30px;
 }
 .text3{
@@ -110,19 +110,19 @@ footer{
 .img4{
     height: 700px;
     transform: translate(1200px,-600px);
-    position:absolute;
+   
     border-radius: 30px;
 }
 .text2{
     font-style:italic;
 }
 .img5{
-    position:absolute;
+    
     transform: translate(460px,-160px);
     height:50px;
 }
 .img6{
-    position:absolute;
+  
     transform: translate(516px,-160px);
     height:50px;
 }
