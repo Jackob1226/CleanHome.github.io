@@ -84,7 +84,6 @@ ul{
 }
 footer{
     color:white;
-    background-color: rgba(0, 0, 0, 0.7);
     font-size: 25px;
     padding: 15px;
     border-bottom-left-radius: 30px;
@@ -129,7 +128,6 @@ footer{
 }
 
 main{
-    background-color: rgba(0, 0, 0, 0.7);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
