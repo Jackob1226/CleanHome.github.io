@@ -12,3 +12,9 @@ h1{
     transform: translate(-730px,-90px);
     font-style:italic ;
 }
+.img1{
+    margin-top: 5px;
+    height:50px;
+    transform: translateX(-890px);
+    border-radius: 30px;
+}
