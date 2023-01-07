@@ -24,6 +24,7 @@ nav{
     transform: translate(-330px,-175px);
 }
 body{
+    position:absolute;
     background-color:black;
     background-image: url("https://odessa.dozor.ua/content/documents/11830/1182931/images/HvqFV4gdJUM.jpg");
     background-repeat: no-repeat;
