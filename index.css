@@ -22,8 +22,9 @@ h1{
     position: relative;
     bottom: 43px;
     left: 40px;
-    margin:auto 0;
-    width: 400px;
+    margin:auto 5px;
+    width: 168px;
+    display: inline;
 }
 nav{
     position: relative;
@@ -38,7 +39,7 @@ nav{
     text-decoration: none;
     color: white;
     border-radius: 30px;
-    
+    margin: 5px;
 }
 .link:hover{
     background-color: gray;
@@ -53,4 +54,14 @@ header{
     display: grid;
     width: 930px;
     border-radius: 30px;
+}
+main{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top:300px;
+    padding: 30px;
+    font-style: oblique;
+}
+.main{
+    text-decoration: none;
 }
