@@ -1,0 +1,332 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    background-position:inherit;
+    background-attachment:scroll;
+    margin: 0;
+    padding: 0;   
+}
+@media only screen and (max-width: 1024px){
+    header{
+    display: flex;
+    background-color:black;
+    justify-content: baseline;
+    align-items: center;
+    border-bottom: 4px solid #ffd901;
+    flex-wrap: wrap;
+    max-width:100%;
+    height: auto;
+  
+}
+h1{
+    color: white;
+    padding-right: 35px;
+    font-size: 35px;
+}
+a{
+    text-decoration:none;
+    color:white;
+    font-size:32px;
+    margin:7px;
+    border:1px solid #000000;
+    padding:5px;
+}
+a:hover{
+    border:1px solid #ffd901;
+}
+a:active{
+    background-color:#555555
+}
+header img{
+    height: 50px;
+    margin: 10px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin:0;
+    padding:0;
+}
+
+
+div.heading{
+    background-image: url('https://img3.goodfon.ru/wallpaper/nbig/8/78/kvartira-lyuks-more-okean.jpg');
+    max-width:1334px;
+    height:750px;
+    display:flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+    
+}
+div.image{
+    background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0));
+    background-size:cover;
+    height:100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    position: relative;
+}
+h2{
+    color:white;
+    font-size:52px;
+    transform: skew(-5deg);
+}
+
+h3{
+    margin-right: 10%;
+    margin-bottom: -30px;
+    font-size: 62px;
+    border-bottom: 5px solid #ffd901;
+    color: white;
+    padding: 20px;
+   
+}
+
+.image p {
+    margin-bottom: 10%;
+    font-size: 42px;
+    text-align: left;
+    margin-bottom: 20%;
+    width: 70%;
+    margin-right: 5%;
+    color: white;
+}
+/*Code from here!*/
+
+h4{
+    color: white;
+    font-size:42px;
+    border-bottom: 5px solid #ffd901;
+}
+.box1{
+    color: white;
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+    transform: skew(-5deg);
+    height: 370px;
+}
+.box2{
+    color: white;
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+    transform: skew(-5deg);
+    height: 560px;
+}
+.box3{
+    color: white;
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+    transform: skew(-5deg);
+    height: 320px;
+}
+.box4{
+    color: white;
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+    transform: skew(-5deg);
+    height: 300px;
+}
+.box5{
+    color: white;
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+    transform: skew(-5deg);
+    height: 300px;
+}
+.box6{
+    color: white;
+    width:98%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+    transform: skew(-5deg);
+    height: 420px;
+}
+.box7{
+    color: white;
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+    transform: skew(-5deg);
+    height: 550px;
+}
+.box8{
+    color: white;
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+    transform: skew(-5deg);
+    height: 300px;
+}
+.img1{
+    max-width:50%;
+    height:100%;
+    display: block;
+    border-left:5px double #ffd901;
+  
+}    
+
+.box1 ul{
+        display:flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        font-size:27px;
+        padding:0;
+        margin:5px;
+        width:50%;
+        text-align: left;
+        margin-left:5%;
+}
+.box2 ul{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-size:27px;
+    padding:0;
+    margin:5px;
+    width:50%;
+    text-align: left;
+    margin-left:5%;
+}
+.box3 ul{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-size:27px;
+    padding:0;
+    margin:5px;
+    width:50%;
+    text-align: left;
+    margin-left:5%;
+}
+.box4 ul{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-size:27px;
+    padding:0;
+    margin:5px;
+    width:50%;
+    text-align: left;
+    margin-left:5%;
+}
+.box5 ul{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-size:27px;
+    padding:0;
+    margin:5px;
+    width:50%;
+    text-align: left;
+    margin-left:5%;
+}
+.box6 ul{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-size:27px;
+    padding:0;
+    margin:5px;
+    width:50%;
+    text-align: left;
+    margin-left:5%;
+}
+.box7 ul{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-size:27px;
+    padding:0;
+    margin:5px;
+    width:50%;
+    text-align: left;
+    margin-left:5%;
+}
+.under{
+    color:white;
+    text-align: left;
+    border-top:3px solid #ffd901;
+    width:100%;
+    padding:0;
+    margin-top: 10%;
+}
+h5{
+    margin-left:5%;
+    font-size: 32px;
+}
+.under p{
+    margin-left:5%;
+    font-size:24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    border-top: 5px solid #ffd901;
+    background-color: black;
+    background-size: cover;
+    padding: 15px;
+    color: white;
+    margin-top: 30px;
+    font-size: 42px;
+}}
+
+
+
